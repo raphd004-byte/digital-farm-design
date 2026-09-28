@@ -448,6 +448,25 @@ body {
 .dashboard-notes-empty {
   padding: 20px 18px;
 }
+
+/* Employee recognition cards */
+.emp-note-card {
+  background: var(--white);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--amber);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  box-shadow: var(--shadow);
+}
+.emp-note-card.hardworking { border-left-color: var(--amber); }
+.emp-note-card.trustworthy { border-left-color: var(--green); }
+.emp-note-card strong { display: block; font-size: 14px; margin-bottom: 2px; }
+.emp-note-card h4 { font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
+
+/* Stock management */
+.stock-decrease { color: var(--danger); }
+.stock-increase { color: var(--green); }
+.stock-row-value { font-weight: 600; }
 .text-muted { color: var(--ink-soft) !important; font-size: 13px; }
 .profit-divider {
   border-top: 1px dashed var(--rule);
