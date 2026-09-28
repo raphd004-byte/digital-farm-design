@@ -1,0 +1,16 @@
+{
+  "name": "digital-farm-system",
+  "version": "1.0.0",
+  "description": "Digital Farm Design — System + Website (FDT-2026-001)",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
